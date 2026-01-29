@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import Logo from "../assets/Logo.jpeg";
 
 
 const ComingSoon = () => {
@@ -15,8 +16,15 @@ const ComingSoon = () => {
     <div className="page">
       <main className="container">
 
-        {/* Logo */}
-        <div className="logo">☕CHAI CULTURE</div>
+      {/* Top Bar */}
+<div className="top-bar">
+  <img src={Logo} alt="Chai Culture Logo" className="top-logo" />
+</div>
+
+{/* Brand Text */}
+<div className="logo">☕ CHAI CULTURE</div>
+
+
 
         {/* Launch Element */}
         <div className="badge">Launching Soon</div>
